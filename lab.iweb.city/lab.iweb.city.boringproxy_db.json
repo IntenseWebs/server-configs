@@ -1,0 +1,35 @@
+{
+  "admin_domain": "lab.iweb.city",
+  "tokens": {
+    "***************************************": {
+      "owner": "admin"
+    }
+  },
+  "tunnels": {
+    "code.iweb.city": {
+      "domain": "code.iweb.city",
+      "server_address": "lab.iweb.city",
+      "server_port": 22,
+      "server_public_key": "",
+      "username": "opc",
+      "tunnel_port": 46621,
+      "tunnel_private_key": "-----BEGIN RSA PRIVATE KEY-----\************************************************************************************************************************888\n-----END RSA PRIVATE KEY-----\n",
+      "client_address": "192.168.1.3",
+      "client_port": 3000,
+      "allow_external_tcp": false,
+      "tls_termination": "client",
+      "owner": "admin",
+      "client_name": "iweb-code",
+      "auth_username": "",
+      "auth_password": ""
+    }
+  },
+  "users": {
+    "admin": {
+      "is_admin": true,
+      "clients": {
+        "iweb-code": {}
+      }
+    }
+  }
+}

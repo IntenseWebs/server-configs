@@ -1,0 +1,27 @@
+zone "intensewebs.com" {
+        type master;
+        file "/var/lib/bind/db.intensewebs.com";
+	allow-transfer { 192.168.1.141; };
+	also-notify { 192.168.1.141; };
+};
+
+zone "nukvm.org" {
+        type master;
+        file "/var/lib/bind/db.nukvm.org";
+        allow-transfer { 192.168.1.141; };
+        also-notify { 192.168.1.141; };
+};
+
+zone "iweb.city" {
+        type master;
+        file "/var/lib/bind/db.iweb.city";
+        allow-transfer { 192.168.1.141; };
+        also-notify { 192.168.1.141; };
+};
+
+zone "1.168.192.in-addr.arpa" {
+        type master;
+        file "/var/lib/bind/db.1.168.192";
+        allow-transfer { 192.168.1.141; };
+        also-notify { 192.168.1.141; };
+};

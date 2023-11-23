@@ -1,0 +1,35 @@
+{
+  "admin_domain": "lab.nukvm.org",
+  "tokens": {
+    "******************************": {
+      "owner": "admin"
+    }
+  },
+  "tunnels": {
+    "code.nukvm.org": {
+      "domain": "code.nukvm.org",
+      "server_address": "lab.nukvm.org",
+      "server_port": 22,
+      "server_public_key": "",
+      "username": "opc",
+      "tunnel_port": 43361,
+      "tunnel_private_key": "-----BEGIN RSA PRIVATE KEY-----\n****************************************************************************************************************************************************************************************************************\n-----END RSA PRIVATE KEY-----\n",
+      "client_address": "192.168.1.66",
+      "client_port": 3000,
+      "allow_external_tcp": false,
+      "tls_termination": "client",
+      "owner": "admin",
+      "client_name": "demo-code",
+      "auth_username": "",
+      "auth_password": ""
+    }
+  },
+  "users": {
+    "admin": {
+      "is_admin": true,
+      "clients": {
+        "demo-code": {}
+      }
+    }
+  }
+}
