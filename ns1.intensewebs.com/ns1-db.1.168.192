@@ -4,7 +4,7 @@
 
 $TTL    604800
 @       IN      SOA     ns1.intensewebs.com. dns.intensewebs.com. (
-                             47         ; Serial
+                             58         ; Serial
                          604800         ; Refresh
                           86400         ; Retry
                         2419200         ; Expire
@@ -15,16 +15,16 @@ $TTL    604800
 ns1.intensewebs.com.	IN      A	192.168.1.140
 ns2.intensewebs.com.	IN	A	192.168.1.141
 3	IN	PTR	giti.iweb.city
+4	IN	PTR	ng1.iweb.city
+66      IN      PTR     gitea.nukvm.org
 121	IN	PTR	alma1.intensewebs.com
 123	IN	PTR	git.intensewebs.com
 124	IN	PTR	ipa1.intensewebs.com
 125	IN	PTR	ipa2.intensewebs.com
 126	IN	PTR	pg.intensewebs.com
-66	IN	PTR	gitea.nukvm.org
-160	IN	PTR	gource.intensewebs.com
 140	IN	PTR	ns1.intensewebs.com
 141	IN	PTR	ns2.intensewebs.com
-151	IN	PTR	deb1.intensewebs.com
+200	IN	PTR	tdebian.intensewebs.com
+201	IN	PTR	tnginx.iweb.city
 222	IN	PTR	sd.intensewebs.com
-22l	IN	PTR	superdog.intensewebs.com
-220	IN	PTR	dev1.intensewebs.com
+223	IN	PTR	superdog.intensewebs.com

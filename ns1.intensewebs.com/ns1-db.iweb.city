@@ -2,7 +2,7 @@ $ORIGIN iweb.city.
 $TTL    604800
 ;
 @       IN      SOA     ns1.intensewebs.com. dns.intensewebs.com. (
-                             47         ; Serial
+                             58         ; Serial
                          604800         ; Refresh
                           86400         ; Retry
                         2419200         ; Expire
@@ -13,10 +13,12 @@ $TTL    604800
 ;
 		IN	MX	10	mail.iweb.city.
 ;
+*       IN      A       129.146.170.34
 lab	IN	A	129.146.170.34
 mail	IN	A	74.63.233.135
 ftp	IN	A	74.63.233.135
 www	IN	A	74.63.233.135
 ;
 giti	IN	A	192.168.1.3
-*	IN	A	129.146.170.34
+ng1	IN	A	192.168.1.4
+tnginx	IN	A	192.168.1.201

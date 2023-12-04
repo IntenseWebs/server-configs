@@ -2,7 +2,7 @@ $ORIGIN nukvm.org.
 $TTL    604800
 ;
 @       IN      SOA     ns1.intensewebs.com. dns.intensewebs.com. (
-                             47         ; Serial
+                             58         ; Serial
                          604800         ; Refresh
                           86400         ; Retry
                         2419200         ; Expire
