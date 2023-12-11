@@ -4,9 +4,9 @@ zone "intensewebs.com" {
 	masters { 192.168.1.140; };
 };
 
-zone "nukvm.org" {
+zone "corp.intensewebs.com" {
         type slave;
-        file "/var/lib/bind/db.nukvm.org";
+        file "/var/lib/bind/db.corp.intensewebs.com";
         masters { 192.168.1.140; };
 };
 
@@ -16,9 +16,14 @@ zone "iweb.city" {
         masters { 192.168.1.140; };
 };
 
+zone "nukvm.org" {
+        type slave;
+        file "/var/lib/bind/db.nukvm.org";
+        masters { 192.168.1.140; };
+};
+
 zone "1.168.192.in-addr.arpa" {
         type slave;
         file "/var/lib/bind/db.1.168.192";
 	masters { 192.168.1.140; };
 };
-

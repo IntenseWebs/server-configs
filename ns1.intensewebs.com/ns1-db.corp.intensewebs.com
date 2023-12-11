@@ -1,4 +1,4 @@
-$ORIGIN iweb.city.
+$ORIGIN corp.intensewebs.com.
 $TTL    604800
 ;
 @       IN      SOA     ns1.intensewebs.com. dns.intensewebs.com. (
@@ -11,14 +11,7 @@ $TTL    604800
 		IN      NS      ns1.intensewebs.com.
 		IN	NS	ns2.intensewebs.com.
 ;
-		IN	MX	10	mail.iweb.city.
+		IN	MX	10	mail.intensewebs.com.
 ;
-*       IN      A       129.146.170.34
-lab	IN	A	129.146.170.34
-mail	IN	A	74.63.233.135
-ftp	IN	A	74.63.233.135
-www	IN	A	74.63.233.135
-;
-giti	IN	A	192.168.1.3
-ng1	IN	A	192.168.1.4
-tnginx	IN	A	192.168.1.201
+ipa1	IN	A	192.168.1.124
+ipa2	IN	A	192.168.1.125
