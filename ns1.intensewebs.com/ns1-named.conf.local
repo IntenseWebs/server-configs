@@ -5,13 +5,6 @@ zone "intensewebs.com" {
 	also-notify { 192.168.1.141; };
 };
 
-zone "corp.intensewebs.com" {
-        type master;
-        file "/var/lib/bind/db.corp.intensewebs.com";
-        allow-transfer { 192.168.1.141; };
-        also-notify { 192.168.1.141; };
-};
-
 zone "iweb.city" {
         type master;
         file "/var/lib/bind/db.iweb.city";
