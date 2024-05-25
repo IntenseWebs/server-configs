@@ -19,13 +19,15 @@ ns2.intensewebs.com.	IN	A	192.168.1.141
 66      IN      PTR     gitea.nukvm.org
 121	IN	PTR	alma1.intensewebs.com
 123	IN	PTR	git.intensewebs.com
-124	IN	PTR	ipa1.corp.intensewebs.com
-125	IN	PTR	ipa2.corp.intensewebs.com
+124	IN	PTR	ipa1.iweb.corp
+125	IN	PTR	ipa2.iweb.corp
 126	IN	PTR	pg.intensewebs.com
 140	IN	PTR	ns1.intensewebs.com
 141	IN	PTR	ns2.intensewebs.com
 200	IN	PTR	tdebian.intensewebs.com
 201	IN	PTR	tnginx.iweb.city
 202	IN	PTR	tfedora.intensewebs.com
+203	IN	PTR	tdebian2.intensewebs.com
+204	IN	PTR	tfedora2.intensewebs.com
 222	IN	PTR	sd.intensewebs.com
 223	IN	PTR	superdog.intensewebs.com

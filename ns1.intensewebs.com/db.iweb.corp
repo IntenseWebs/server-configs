@@ -1,0 +1,17 @@
+$ORIGIN iweb.corp.
+$TTL    604800
+;
+@       IN      SOA     ipa1.iweb.corp. dns.intensewebs.com. (
+                             60         ; Serial
+                         604800         ; Refresh
+                          86400         ; Retry
+                        2419200         ; Expire
+                         604800 )       ; Negative Cache TTL
+;
+		IN      NS      ipa1.iweb.corp.
+		IN	NS	ipa2.iweb.corp.
+;
+		IN	MX	10	mail.intensewebs.com.
+;
+ipa1	IN	A	192.168.1.124
+ipa2	IN	A	192.168.1.125

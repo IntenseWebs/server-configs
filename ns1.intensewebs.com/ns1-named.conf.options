@@ -3,8 +3,6 @@ acl trustedclients {
         localnets;
 	192.168.1.140;   #ns1.intensewebs.com
 	192.168.1.141;   #ns2.intensewebs.com
-	192.168.1.142;   #ns3.intensewebs.com
-	192.168.1.143;   #ns4.intensewebs.com
         192.168.1.0/24;
         192.168.2.0/24;
 };

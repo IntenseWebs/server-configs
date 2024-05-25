@@ -1,0 +1,22 @@
+$ORIGIN nukvm.org.
+$TTL    604800
+;
+@       IN      SOA     ns1.intensewebs.com. dns.intensewebs.com. (
+                             60         ; Serial
+                         604800         ; Refresh
+                          86400         ; Retry
+                        2419200         ; Expire
+                         604800 )       ; Negative Cache TTL
+;
+		IN      NS      ns1.intensewebs.com.
+		IN	NS	ns2.intensewebs.com.
+;
+		IN	MX	10	mail.nukvm.org.
+;
+lab	IN	A	129.153.118.150
+mail	IN	A	74.63.233.135
+ftp	IN      A       74.63.233.135
+www	IN      A       74.63.233.135
+;
+gitea	IN	A	192.168.1.66
+*	IN	A	129.153.118.150

@@ -21,8 +21,6 @@ ns1	IN	A	192.168.1.140
 ns2	IN	A	192.168.1.141
 tdebian	IN	A	192.168.1.200
 tfedora	IN	A	192.168.1.202
-tdebian2	IN	A	192.168.1.203
-tfedora2	IN	A	192.168.1.204
 sd      IN      A       192.168.1.222
 superdog        IN      A       192.168.1.223
 ;
@@ -35,13 +33,3 @@ t	IN	A	129.146.170.34
 lab     IN      A       129.146.170.34
 ;
 u	IN	A	129.153.118.150
-;
-$ORIGIN corp.intensewebs.com.
-;
-@       IN      NS     ipa1.corp.intensewebs.com.
-;
-        IN      NS     ipa1.corp.intensewebs.com.
-        IN      NS     ipa2.corp.intensewebs.com.
-;
-ipa1    IN      A      192.168.1.124
-ipa2    IN      A      192.168.1.125

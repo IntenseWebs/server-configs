@@ -16,7 +16,7 @@ Group=opc
 WorkingDirectory=/usr/local/bin
 #Create directory in /run
 RuntimeDirectory=bin
-ExecStart=/usr/local/bin/boringproxy server
+ExecStart=/usr/local/bin/boringproxy server -admin-domain SUBDOMAIN.DOMAIN.TLD
 Restart=always
 WatchdogSec=30s
 #Capabilities to bind to low-numbered ports
